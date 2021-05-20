@@ -1,0 +1,50 @@
+body{
+  text-align: center  
+}
+img {
+    height: 100%;
+    width: 100%;
+    text-align: left;
+}
+.links {
+    float:left;
+    color: bisque;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.links:hover {
+    background-color: coral;
+}
+.menu {
+    list-style: none;
+    position: fixed;
+    top:10px;
+    right: 30px;
+    color: bisque;
+    z-index: 10;
+   
+}
+html {
+    scroll-behavior: smooth;
+}
+#grid{
+    height:200px;
+    width: 300px;
+}
+#Grid_View{
+   color: blueviolet; 
+    background-color: burlywood;
+}
+#myCarousel
+{
+    background-color: red;
+}
+.carousel-inner p
+{
+    margin-bottom: 10px;
+}
